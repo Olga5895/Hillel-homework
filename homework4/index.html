@@ -3,19 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Registration</title>
   </head>
   <body>
-    <h1>hillel</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas omnis
-      fugiat dolorem possimus! Quam cupiditate, nihil, quae, eaque enim aliquam
-      esse dolores est animi temporibus incidunt iusto et vel ipsum.
-    </p>
-    git add .
-
-git commit -m "done homework4"
-
-git push
+    <div>
+      <button><h1 style="color: blue; text-align: center">Login</h1></button>
+      <button><h1 style="color: red; text-align: center">Register</h1></button>
+    </div>
+    <div>
+      <form action="/submit" method="post">
+        <p>Enter your email and password to register.</p>
+        <input type="text" name="username" placeholder="Ваше ім'я" />
+        <input type="password" name="password" placeholder="Пароль" />
+        <input type="password" name="password" placeholder="Повторити Пароль" />
+        <div><input type="email" name="email" required /></div>
+        <p>Вам вже є 18 років?</p>
+        <div><input type="radio" name="answer" id="так" /></div>
+        <div><label for="так">так</label></div>
+        <div><input type="radio" name="answer" id="ні" /></div>
+        <div><label for="ні">ні</label></div>
+        <input type="submit" value="Register" />
+        <p>Or register with</p>
+      </form>
+    </div>
+    <form action="/submit" method="post">
+      <div><input type="submit" value="Continue with Google" /></div>
+      <div><input type="submit" value="Continue with Facebook" /></div>
+      <input type="file" accept="img" />
+    </form>
+    <form action="submit"><input type="datetime-local" />дата візиту</form>
+    
   </body>
+  git add . 
+  git commit -m "fghyh"
+  git push
+
 </html>
