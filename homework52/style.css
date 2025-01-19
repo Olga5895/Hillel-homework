@@ -1,0 +1,21 @@
+
+.menu-section { display: inline-block;  vertical-align: top;
+  margin-left: 2px; margin-right: 2px; padding: 2px; 
+border: 2px;}
+.text-name { font-size: 16px; font-family: Verdana; color: gray;   padding: 5px; bottom: 2px;}
+.price { color: green; font-size: 12px;}
+.name-menu { font-size: 18px; font-family: Verdana;}
+.super-text { color: green; font-size: 18px;}
+.text-menu { margin: 15px; margin-bottom: 45px; padding: 10px; border: 2px;}
+.text-bonus {margin: 5px; padding: 8px; border: 2px;} 
+.text-content { display: inline-block;  vertical-align: top;  margin: 15px; padding: 10px;  
+  border: 2px;}
+  .box { display: inline-block; text-align: center;  margin: 6px; padding: 5px;  
+    border: 1px  }
+    .boxes { display:inline-block; margin: 5px; padding: 10px;  
+      border: 2px  }
+      .text-link { display:block; margin: 15px; padding: 10px;  
+        border: 2px  }
+        .text-mask { color: green; font-size: 18px;}
+        .text-list {display: inline-block; margin: 15;padding: 10; border: 2px;}
+        .box-menu { height: 30px;  width: 150;}
